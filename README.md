@@ -5,7 +5,7 @@
 This project is a simple Python-based multi-agent AI assistant.  
 It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses for your input.
 
-## 📥 Clone the project-
+## 📥 Clone the project
      
 ## 🚀 How it works
   The project has three agents:
