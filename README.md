@@ -28,7 +28,7 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
 ## 🔑 How to add your API keys
   This project uses a .env file to keep your API keys safe.  
   Create a file named .env in your project root (same level as agent_modules.py).  
-  ## Example .env:  
+  ### Example .env:  
      GEMINI_API_KEY=your_gemini_api_key_here  
      HUGGING_API_KEY=your_huggingface_api_key_here  
      OPENAI_API_KEY=your_openai_api_key_here  
@@ -40,8 +40,8 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
      # On Windows:  
      venv\Scripts\activate  
      # On macOS/Linux:  
-     source venv/bin/activate  
-     # Install required packages for all 3 agents  
+     source venv/bin/activate
+### Install required packages for all 3 agents  
      pip install google-generativeai  
      pip install huggingface_hub   
      pip install openai  
