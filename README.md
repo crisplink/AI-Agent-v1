@@ -17,11 +17,11 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
 ## 📂 Project structure
 >>agent_v1/  
    │   ├─ __pycache__/  
-   │   ├─ log/               # Logs of your conversations (ignored by Git)  
-   │   ├─ agent_modules.py   # Main agent classes  
-   │   ├─ .env               # Your secret API keys (DO NOT SHARE!)  
-   |   ├─ run_agent.py       # Entry point to run your agents  
-   |   ├─ .gitignore   
+   │   ├─ log/               # Logs of your conversations (ignored by Git)
+   │   ├─ agent_modules.py   # Main agent classes
+   │   ├─ .env               # Your secret API keys (DO NOT SHARE!)
+   |   ├─ run_agent.py       # Entry point to run your agents
+   |   ├─ .gitignore
 
 ## 🔑 How to add your API keys
   This project uses a .env file to keep your API keys safe.  
