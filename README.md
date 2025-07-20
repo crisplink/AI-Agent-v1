@@ -16,12 +16,12 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
 
 ## 📂 Project structure
 >>agent_v1/  
-   │   ├─ __pycache__/  
-   │   ├─ log/               # Logs of your conversations (ignored by Git)  
-   │   ├─ agent_modules.py   # Main agent classes  
-   │   ├─ .env               # Your secret API keys (DO NOT SHARE!)  
-   |   ├─ run_agent.py       # Entry point to run your agents  
-   |   ├─ .gitignore  
+   ├─ __pycache__/  
+   ├─ log/               # Logs of your conversations (ignored by Git)  
+   ├─ agent_modules.py   # Main agent classes  
+   ├─ .env               # Your secret API keys (DO NOT SHARE!)  
+   ├─ run_agent.py       # Entry point to run your agents  
+   ├─ .gitignore  
 
 ## 🔑 How to add your API keys
   This project uses a .env file to keep your API keys safe.  
@@ -53,10 +53,10 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
   Pick an agent by number → enter your prompt → see your AI reply!  
 
 ## 📌 Notes
-  Logs: All conversations are saved inside the log/ folder. This folder is ignored by .gitignore so your logs stay local.
-  API keys: Each user must use their own keys for Gemini, Hugging Face, and OpenAI.
-  OpenAI billing: If your key is expired or quota is exhausted, the agent will show an error — handled with try/except.
-  Gemini pro recomended (use student offer available now as of (20th june 2025) 
+  Logs: All conversations are saved inside the log/ folder. This folder is ignored by .gitignore so your logs stay local.  
+  API keys: Each user must use their own keys for Gemini, Hugging Face, and OpenAI.  
+  OpenAI billing: If your key is expired or quota is exhausted, the agent will show an error — handled with try/except.  
+  Gemini pro recomended (use student offer available now as of (20th june 2025). 
 
 ## 🫧 Why I built this?
   This is my first step towards building a *AI agent agency*.  
