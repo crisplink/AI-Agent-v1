@@ -15,7 +15,7 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
   You run the script → pick an agent → type your prompt → get a reply → the conversation is logged.
 
 ## 📂 Project structure
- agent_v1/
+ agent_v1/  
  │   ├─ __pycache__/  
  │   ├─ log/               # Logs of your conversations (ignored by Git)  
  │   ├─ agent_modules.py   # Main agent classes  
