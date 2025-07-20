@@ -33,17 +33,17 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
 
 ✅ Full Setup — Requirements-
   Before you run the project, make sure you have Python installed (Python 3.10+ is best).
-  >>Then install these libraries in your project’s virtual environment:
-     # Activate virtual environment
-     # On Windows:
-     venv\Scripts\activate
-     # On macOS/Linux:
-     source venv/bin/activate
-     # Install required packages for all 3 agents
-     pip install google-generativeai
-     pip install huggingface_hub 
-     pip install openai
-     pip install python-dotenv
+  >>Then install these libraries in your project’s virtual environment:  
+     # Activate virtual environment  
+     # On Windows:  
+     venv\Scripts\activate  
+     # On macOS/Linux:  
+     source venv/bin/activate  
+     # Install required packages for all 3 agents  
+     pip install google-generativeai  
+     pip install huggingface_hub   
+     pip install openai  
+     pip install python-dotenv  
 
 ✅ How to run-
   Install requirements (pip install....)-add your dependencies if needed.
