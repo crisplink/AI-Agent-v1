@@ -6,14 +6,14 @@ This project is a simple Python-based multi-agent AI assistant.
 It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses for your input.
 ## 📥 Clone the project-
      
-## 🚀 How it works-
+## 🚀 How it works
   The project has three agents:
    Gemini (gemini-2.5-pro)
    Hugging Face (zephyr-7b-alpha)
    OpenAI GPT (gpt-3.5-turbo)
   You run the script → pick an agent → type your prompt → get a reply → the conversation is logged.
 
-## 📂 Project structure-
+## 📂 Project structure
  agent_v1/
  │   ├─ __pycache__/
  │   ├─ log/               # Logs of your conversations (ignored by Git)
@@ -23,7 +23,7 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
  |   ├─ .gitignore
  |
 
-## 🔑 How to add your API keys-
+## 🔑 How to add your API keys
   This project uses a .env file to keep your API keys safe.
   Create a file named .env in your project root (same level as agent_modules.py).
   >>Example .env:
@@ -52,7 +52,7 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
    python run_agent.py
   Pick an agent by number → enter your prompt → see your AI reply!
 
-## 📌 Notes-
+## 📌 Notes
   Logs: All conversations are saved inside the log/ folder. This folder is ignored by .gitignore so your logs stay local.
   API keys: Each user must use their own keys for Gemini, Hugging Face, and OpenAI.
   OpenAI billing: If your key is expired or quota is exhausted, the agent will show an error — handled with try/except.
@@ -66,7 +66,7 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
     Log user-agent interactions
     Build a reusable structure for future agents  
 
-⚡️ Contributing
+## ⚡️ Contributing
   Feel free to fork, improve, and share feedback!
   Create an issue or pull request if you find bugs or have ideas.
 
