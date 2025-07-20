@@ -70,7 +70,6 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
   Feel free to fork, improve, and share feedback!
   Create an issue or pull request if you find bugs or have ideas.
 
-📃 License
-  licensed as MIT.   
+📃 Licensed as MIT.   
 📌 Tip: Never commit your .env file or API keys to GitHub — keep them in .gitignore.
 
