@@ -47,10 +47,10 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
 
 ✅ How to run-
   Install requirements (pip install....)-add your dependencies if needed.
-  Make sure your .env file is set up.
- Run:
-   python run_agent.py
-  Pick an agent by number → enter your prompt → see your AI reply!
+  Make sure your .env file is set up.  
+ Run:  
+   python run_agent.py  
+  Pick an agent by number → enter your prompt → see your AI reply!  
 
 ## 📌 Notes
   Logs: All conversations are saved inside the log/ folder. This folder is ignored by .gitignore so your logs stay local.
