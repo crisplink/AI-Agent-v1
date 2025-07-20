@@ -11,7 +11,7 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
   The project has three agents:
    Gemini (gemini-2.5-pro),
    Hugging Face (zephyr-7b-alpha),
-   OpenAI GPT (gpt-3.5-turbo)  
+   OpenAI GPT (gpt-3.5-turbo).  
   You run the script → pick an agent → type your prompt → get a reply → the conversation is logged.
 
 ## 📂 Project structure
@@ -59,18 +59,18 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
   Gemini pro recomended (use student offer available now as of (20th june 2025) 
 
 ## 🫧 Why I built this?
-  This is my first step towards building a *AI agent agency*.
+  This is my first step towards building a *AI agent agency*.  
   I made this to learn how to:
-    Handle multiple LLM providers in one project
-    Securely manage API keys
-    Log user-agent interactions
-    Build a reusable structure for future agents  
+    Handle multiple LLM providers in one project,
+    Securely manage API keys,
+    Log user-agent interactions,
+    Build a reusable structure for future agents.  
 
 ## ⚡️ Contributing
   Feel free to fork, improve, and share feedback!
   Create an issue or pull request if you find bugs or have ideas.
 
 📃 License
-  licensed as MIT. 
+  licensed as MIT.   
 📌 Tip: Never commit your .env file or API keys to GitHub — keep them in .gitignore.
 
