@@ -6,12 +6,11 @@ This project is a simple Python-based multi-agent AI assistant.
 It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses for your input.
 
 ## 📥 Clone the project
-  git clone https://github.com/yourusername/AI-Agent-v1.git
-  cd AI-Agent-v1
+  git clone https://github.com/yourusername/AI-Agent-v1.git  
+  cd AI-Agent-v1  
 
-     
 ## 🚀 How it works
-    The project has three agents:
+  The project has three agents:
    Gemini (gemini-2.5-pro),
    Hugging Face (zephyr-7b-alpha),
    OpenAI GPT (gpt-3.5-turbo).  
@@ -29,7 +28,7 @@ It lets you choose between Gemini, Hugging Face, or OpenAI to generate responses
 ## 🔑 How to add your API keys
   This project uses a .env file to keep your API keys safe.  
   Create a file named .env in your project root (same level as agent_modules.py).  
-  >>Example .env:  
+  ## Example .env:  
      GEMINI_API_KEY=your_gemini_api_key_here  
      HUGGING_API_KEY=your_huggingface_api_key_here  
      OPENAI_API_KEY=your_openai_api_key_here  
