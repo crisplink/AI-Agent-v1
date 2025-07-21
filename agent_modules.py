@@ -70,7 +70,7 @@ class open_v1:
        ans = re.sub(r'\n{2,}','\n',ans)
        #log
        timestamp=datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-       with open(r"C:\Users\Hp\Desktop\agent_v1\log\agent_log_open_v1.txt","a",encoding="utf-8")as file:
+       with open(r"C:\Users\Hp\Desktop\agent_v1\log\agent_log_openai_v1.txt","a",encoding="utf-8")as file:
            file.write(f"[{timestamp}]\n User: {user_prompt}\nAgent:\n{ans}\n")
            return ans    
     except Exception as err:
